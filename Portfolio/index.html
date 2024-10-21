@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a mi Portfolio</h1>
+        <span class="menu-icon" onclick="openNav()">&#9776;</span>
+    </header>
+
+    <div id="sideNav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#about">Sobre mí</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#contact">Contacto</a>
+    </div>
+
+    <div class="container">
+        <section id="about">
+            <h2>Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-photo">
+                    <img src="static/imagenes/mi foto.jpg" alt="Mi foto">
+                </div>
+                <div class="about-text">
+                    <h3>Soy Felipe Piña, un desarrollador junior full stack con practica en metodologías ágiles como Scrum, Kanban y XP. Tengo habilidades en desarrollo web tanto del lado del cliente como del servidor, con un interés particular en especializarme más en el back end. Además, poseo conocimientos básicos en sistemas operativos y arquitectura de computadoras. Estoy motivado para contribuir a proyectos innovadores y seguir aprendiendo en el campo del desarrollo.</h3>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Habilidades</h2>
+            <div class="skills">
+                <div class="skill">
+                    <img src="static/imagenes/python.png" alt="Python">
+                    <div class="skill-info">
+                        <h3>Python</h3>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <img src="static/imagenes/html.png" alt="HTML">
+                    <div class="skill-info">
+                        <h3>HTML</h3>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <img src="static/imagenes/css.png" alt="CSS">
+                    <div class="skill-info">
+                        <h3>CSS</h3>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <img src="static/imagenes/js.png" alt="JAVASCRIPT">
+                    <div class="skill-info">
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <img src="static/imagenes/sql.png" alt="SQL">
+                    <div class="skill-info">
+                        <h3>SQL</h3>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Proyectos</h2>
+            <div class="projects">
+                <div class="project">
+                    <div class="project-body">
+                        <img src="static/imagenes/logo-pizza .png" alt="PizzeriaArgento">
+                        <div class="project-content">
+                            <h3>PizzeriaArgento</h3>
+                            <p>Pizza Argento es una plataforma de delivery con un menú interactivo y pedidos rápidos, desarrollada con Flask y HTML/CSS. Permite a los administradores gestionar el catálogo y los pedidos en tiempo real.</p>
+                        </div>
+                    </div>
+                    <a href="https://github.com/Gaston-comisso/PizzeriaArgento.git" target="_blank">Ver proyecto</a>
+                </div>
+        
+                <div class="project">
+                    <div class="project-body">
+                        <img src="static/imagenes/dengue.png" alt="Caso Dengue">
+                        <div class="project-content">
+                            <h3>Caso Dengue</h3>
+                            <p>Esta aplicación gestiona casos de dengue en San Carlos, clasificándolos por tipo (A, B o C) y almacenando la información de forma eficiente. Desarrollada con Flask y HTML/CSS/JavaScript, permite un seguimiento fácil y seguro de los casos para apoyar la toma de decisiones.</p>
+                        </div>
+                    </div>
+                    <a href="https://github.com/Gaston-comisso/Casos-Dengue.git" target="_blank">Ver proyecto</a>
+                </div>
+        
+                <div class="project">
+                    <div class="project-body">
+                        <img src="static/imagenes/copa-america.png" alt="Portal Deportivo">
+                        <div class="project-content">
+                            <h3>Portal Deportivo</h3>
+                            <p>Este portal deportivo analiza la Copa América 2024 con estadísticas detalladas, usando Flask y HTML/CSS/JavaScript, y almacena la información del torneo para fácil acceso.</p>
+                        </div>
+                    </div>
+                    <a href="https://github.com/Frankk-Castle/CopaAmerica.git" target="_blank">Ver proyecto</a>
+                </div>
+        
+                <div class="project">
+                    <div class="project-body">
+                        <img src="static/imagenes/restaurante.png" alt="Fast Food Delivery">
+                        <div class="project-content">
+                            <h3>Fast Food Delivery</h3>
+                            <p> Fast Food Delivery es una aplicación que permite a los clientes pedir comida rápida en línea y recibirla en su domicilio de manera rápida y conveniente, sin necesidad de ir al restaurante.</p>
+                        </div>
+                    </div>
+                    <a href="https://github.com/FelipePinaGit/Fast-Food.git" target="_blank">Ver proyecto</a>
+                </div>
+                
+                <div class="project">
+                    <div class="project-body">
+                        <img src="static/imagenes/ahorro.png" alt="Hoja De Ahorro">
+                        <div class="project-content">
+                            <h3>Hoja De Ahorro</h3>
+                            <p>Hoja de Ahorro es una herramienta para registrar ingresos y gastos, ayudando a gestionar el presupuesto y mejorar el ahorro.</p>
+                        </div>
+                    </div>
+                    <a href="https://github.com/FelipePinaGit/Hoja-de-Ahorro.git" target="_blank">Ver proyecto</a>
+                </div>
+            </div>
+        </section>
+        
+        </section>
+
+        <section id="contact">
+            <h2>Contacto y Redes Sociales</h2>
+            <div class="contact-info">
+                <p><strong>Teléfono:</strong> +54 261 627 4292</p> 
+                <p><strong>Gmail:</strong>felipeomarpinaconesa@gmail.com</p>
+
+                <div class="social-link">
+                    <a href="https://www.linkedin.com/in/felipe-omar-piña-conesa-508b382b5/" target="_blank">
+                        <img src="static/imagenes/linkedin.png" alt="LinkedIn" class="social-icon">
+                    </a> 
+
+                    <a href="https://github.com/FelipePinaGit" target="_blank">
+                        <img src="static/imagenes/git.png" alt="GitHub" class="social-icon">
+                    </a> 
+
+                    <a href="https://www.instagram.com/_felipe_pina_?igsh=MjQyNnhlbHJiaWRu" target="_blank">
+                        <img src="static/imagenes/insta.png" alt="Instagram" class="social-icon">
+                    </a>
+                </div>
+                <p><a href="static/Curriculum Vitae Felipe Piña_compressed.pdf" target="_blank">Ver mi CV</a></p>
+            </div>
+        </section>
+        
+        
+    </div>
+    
+
+    <script src="static/script.js"></script>
+</body>
+</html>
